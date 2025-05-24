@@ -104,7 +104,7 @@ module.exports = [ {
 }, {
   command: ["alive", "uptime"],
   operate: async ({ Kango: David, m, reply }) => {
-    const msgai = "*🌹Hi. I am 👑KANGO-XMD, a friendly WhatsApp bot from Ghana🇬🇭, created by Hector Manuel. Don't worry, I'm still Alive☺🚀*";
+    const msgai = "*🌹Hi. I am 👑KANGO-XMD, a friendly WhatsApp bot from Ghana🇬🇭, created by Mustafizur bot. Don't worry, I'm still Alive☺🚀*";
     const imagePath = './Images/alive.png'; // Keep or update if you want to change this too
 
     // Random music from the 'Music' folder
