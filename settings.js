@@ -1,12 +1,12 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : KANGO-XMD 
+// @project_name : Mustafizur-bot
 // @author : Hector 
 // @telegram : http://t.me/official_kango
 // @github : OfficialKango
-// @whatsapp : +233509977126
+// @whatsapp : +60136748423
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ Mustafizur ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -61,7 +61,7 @@ global.wm = process.env.GL_WM || "> ©Muatafizur"
 
 global.mess = { 
   done: '*Done*', 
-  success: '©kango-xmd', 
+  success: '©Mustafizur', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
@@ -78,4 +78,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ Mustafizur-bot ]----------------------//
